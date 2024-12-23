@@ -114,7 +114,7 @@ const GetBooks = () => {
         {filteredBooks.map((book) => (
           <div
             key={book._id}
-            className="flex items-center bg-white shadow-md rounded-lg p-4 bg-gray-200"
+            className="flex items-center bg-white shadow-md rounded-lg p-4 bg-gray-300"
           >
             {/* Book Image */}
             <img
